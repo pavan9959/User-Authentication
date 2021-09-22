@@ -16,6 +16,7 @@ login he can add new notes and he can delete
 ## Packages
 
 1.Axios-for Api calls
-2.React Router -Eor page navigation
+
+2.React Router -for page navigation
 
 
