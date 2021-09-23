@@ -48,7 +48,7 @@ const Register=(props)=>{
                     {/* {err && <p style={{color:"red"}} >User name should't be blank</p>} */}
                     <input type="text" placeholder="Enter email" value={email} onChange={handelemail} ></input><br/>
                     {/* {err && <p style={{color:"red"}} >Email is wrong</p>} */}
-                    <input type="text" placeholder="Enter password" value={password} onChange={handelpassword} ></input><br/>
+                    <input type="password" placeholder="Enter password" value={password} onChange={handelpassword} ></input><br/>
                     {/* {err && <p style={{color:"red"}} >Miss match</p>} */}
                     <input type="submit" />
                 </form>

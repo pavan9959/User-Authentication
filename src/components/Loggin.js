@@ -38,7 +38,7 @@ const Loggin=(props)=>{
     return <div>
                 <form onSubmit={handelSubmit}>
                     <input type="text" placeholder="Enter email"  value={email} onChange={handelemail} /><br/>
-                    <input type="text" placeholder="Enter password" value={password} onChange={handelpassword} /><br/>
+                    <input type="password" placeholder="Enter password" value={password} onChange={handelpassword} /><br/>
                     <input type="submit" />
                 </form>
             </div>
